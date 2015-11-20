@@ -31,6 +31,8 @@
 				<a class="fa fa-google-plus" href="https://plus.google.com/u/0/108563987627636625268/posts" title="Google-plus" target="_blank"></a>
 				<a class="fa fa-linkedin" href="https://ph.linkedin.com/pub/ab-riel-villanueva/102/675/3b0" title="LinkedIn" target="_blank"></a>
 				<a class="fa fa-youtube" href="https://www.youtube.com/user/TheAbriel123" title="Youtube" target="_blank"></a>
+				<a class="fa fa-github" href="https://github.com/AbRielVillanueva?tab=repositories" title="Github" target="_blank"></a>
+				
 		</div>
 
 		<?php get_search_form(); ?>

@@ -17,15 +17,20 @@ if statement
 frontpage == "optimized-class", "my-class"
 in not == "no-optimized-class"
 ===============================================================*/
-	if( is_front_page() ):
-		$optimized_classes = array('optimized-class', 'my-class');
+	if( is_front_page() || is_archive() ):
+			$abrielRRR_classes = array('abrielRRR-class', 'my-class');
+		elseif ( is_single() ):
+			$abrielRRR_classes = array('abrielRRR-single-class', 'my-single-class');
+		elseif ( is_page() ):
+			$abrielRRR_classes = array('abrielRRR-pages-class', 'my-pages-class');
 		else:
-		$optimized_classes = array('no-optimized-class');
+			$abrielRRR_classes = array('not-abrielRRR-class');
 		endif;
 ?>
 
+
 <!-- start of my body-->
-<body <?php body_class( $optimized_classes ); ?> data-spy="scroll" data-target=".navbar" data-offset="50"><!-- body class with if statement $optimized_classes -->
+<body <?php body_class( $abrielRRR_classes ); ?> data-spy="scroll" data-target=".navbar" data-offset="50"><!-- body class with if statement $optimized_classes -->
 	
 		<div class="row">
 		

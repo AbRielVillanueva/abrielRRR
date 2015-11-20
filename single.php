@@ -119,9 +119,7 @@
 								<div class="sample-ads">
 										<a href="http://www.lazada.com.ph/" target="_blank">
 										<img src="http://localhost/blog/wordpress/wp-content/uploads/2015/10/images.jpg"></img></a>
-								</div>
-				
-				
+								</div>									
 				
 		</div>
 </div>
