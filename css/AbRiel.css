@@ -2,7 +2,7 @@
 /*body and html*/
 body, html {margin: 0; height:100%; overflow: hidden;}
 .post-categories{ list-style-type: none;}
-article{margin-top: 1px; background-color: #e9ece5; padding-top: 110px;}/*all article tag on the scratch*/
+article{background-color: #e9ece5; padding-top: 110px;}/*all article tag on the scratch*/
 .single-margin-left article{ margin-top: 0px;	padding-top: 0px; margin-left: 1em; }
 article p{ font-family: 'Maiandra GD'; font-size: 20px; margin-bottom: 5px;}
 .col-sm-9{ padding-left: 0px;	padding-right: 0px; }
@@ -93,8 +93,8 @@ right: 0;
 
 
 .menu { list-style-type: none; left: 0; right: 0; padding-right: 0px; padding-left: 0px; padding-top: 0px; margin-top: 350px; width: 100%;}
-.menu li { font-size: 25px; font-family: 'Bell MT'; margin-bottom: 3px; padding-bottom: 10px; padding-top: 10px;  padding-left: 0px; padding-right: 0px;}
-.menu li a{text-decoration: none; color:#008B8B;}
+.menu li { font-size: 25px; font-family: 'Bell MT'; margin-bottom: 3px; padding-bottom: 10px; padding-top: 10px;  padding-left: 0px; padding-right: 0px; text-align: center;}
+.mynavbar .menu li a{text-decoration: none; color:#008B8B; padding-left: 30%; padding-right: 30%;}
 .menu li:hover{/*transition*/
 	-webkit-transition:all .3s ease-in-out;
 	-moz-transition:all .3s ease-in-out;
@@ -107,8 +107,7 @@ background-color: #fff; color: #38312A;}
 	-moz-transition:all .3s ease-in-out;
 	-o-transition:all .3s ease-in-out;
 		transition:all .3s ease-in-out;
-
-color: #38312A;}
+	color: #38312A;}
 
 .mynavbar .sidenav  li.current-menu-item ,
 .mynavbar .sidenav  li.current_page_item ,
@@ -380,6 +379,12 @@ form{background-color: #ccc; padding: 20px;}
 small{font-size: 60%;}
 #submit{font-size: 20px; margin-top: -10px; width: 90%;}
 .custom-links{margin-top: 20px; border-bottom: 2px dotted #38312A; padding-top: 30px; padding-bottom: 30px;}
+
+
+/*related-post-margin*/
+#related-post-margin{
+margin-left: 40px;
+}
 
 .fa {font-size: 30px;
     position: relative;

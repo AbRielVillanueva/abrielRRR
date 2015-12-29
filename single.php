@@ -86,7 +86,7 @@
 								while( $my_query->have_posts() ) {
 										$my_query->the_post();?>
 								
-								<div class="col-xs-12, col-sm-5">
+								<div class="col-xs-12, col-sm-5" id="related-post-margin">
 										<li>
 
 												<div class="title-single"><?php the_title( sprintf('<h1 class="entry-title"><a href="%s">', esc_url(get_permalink())),'</a></h1>' );?></div>
